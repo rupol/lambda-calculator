@@ -138,9 +138,10 @@ table {
 /* ///// START STYLING ///// */
 
 html {
-    box-sizing : border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size  : 62.5%;
+    box-sizing      : border-box;
+    font-family     : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size       : 62.5%;
+    background-color: black;
 }
 
 *,
@@ -155,6 +156,7 @@ html {
     height          : 700px;
     padding         : 25px;
     border-radius   : 5px;
+    margin          : 15vh auto;
 }
 
 .logo-container {
@@ -209,6 +211,18 @@ button {
 
 }
 
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    box-shadow: 0px 3px 0px black;
+}
+
+button:active {
+    box-shadow: 0px 0px 0px black;
+}
+
 .operator-btn {
     background-color: #237293;
 }
@@ -221,7 +235,7 @@ button {
     background-color: #184379;
 }
 
-#number-btn-9 {
+#number-btn-0 {
     width        : 186px;
     border-radius: 50px;
 }
