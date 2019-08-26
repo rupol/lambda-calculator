@@ -1,6 +1,6 @@
 import React from "react";
 
-export const SpecialButton = props => {
+const SpecialButton = props => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
@@ -8,3 +8,5 @@ export const SpecialButton = props => {
     </>
   );
 };
+
+export default SpecialButton;
